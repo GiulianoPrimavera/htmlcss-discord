@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 920px;
+    margin: auto;
+    background-color: rgb(133, 98, 52);
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"]{
+    float: left;
+}
+.col-1_6{
+    width: calc(100% / 6);
+}
+.col-2_6{
+    width: calc(100% / 6 * 2);
+}
+.col-4_6{
+    width: calc(100% / 6 * 4);
+}
+
+.nav_bar ul{
+    list-style: none;
+}
+.nav_bar ul li{
+    display: inline-block;
+}
+.nav_bar ul li a{
+    text-decoration: none;
+}
