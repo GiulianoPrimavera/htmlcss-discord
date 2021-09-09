@@ -3,11 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Heebo', sans-serif;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    background-position-y: center;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+}
 
 .container{
-    width: 920px;
+    width: 980px;
     margin: auto;
-    background-color: rgb(133, 98, 52);
+    padding: 30px 0; 
 }
 .clearfix::after{
     content: "";
@@ -15,6 +29,7 @@
     clear: both;
 }
 
+/* queste classi (consigliate da Florian) servono a rispettare determinati ratei di dimensioni per tutta la pagina web */
 [class*="col-"]{
     float: left;
 }
@@ -28,12 +43,49 @@
     width: calc(100% / 6 * 4);
 }
 
+nav div:first-child img{
+    padding: 5px;
+}
+/* qui faccio lo stile dei link della barra di navigazione  */
 .nav_bar ul{
     list-style: none;
+    text-align: center;
 }
 .nav_bar ul li{
     display: inline-block;
+    padding: 10px 15px;
 }
 .nav_bar ul li a{
-    text-decoration: none;
+    color: white;
+}
+
+/* bottoni */
+.button{
+    border-radius: 15px;
+    padding: 10px;
+}
+.login_button{
+    background-color: white;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+}
+nav div:last-child{
+    text-align: right;
+}
+
+/* qui centroil testo, faccio gli stili e bottoni all'interno della hero*/
+.hero_center{
+    text-align: center;
+    float: none;
+    margin: auto;
+    padding: 100px 0;
+}
+.hero_center h1{
+    color: white;
+}
+.hero_center p{
+    font-size: 20px;
+    padding: 25px;
+    color: white;
 }
