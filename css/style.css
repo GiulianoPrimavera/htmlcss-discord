@@ -61,19 +61,29 @@ nav div:first-child img{
 
 /* bottoni */
 .button{
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 25px;
 }
 .login_button{
     background-color: white;
     display: inline-block;
     color: black;
     font-size: 14px;
+    font-weight: 500;
 }
 nav div:last-child{
     text-align: right;
 }
-
+.download_button{
+    background-color: white;
+    font-weight: 500;
+}
+.open_button{
+    background-color: rgb(22, 22, 36);
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+}
 /* qui centroil testo, faccio gli stili e bottoni all'interno della hero*/
 .hero_center{
     text-align: center;
