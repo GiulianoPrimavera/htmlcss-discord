@@ -147,7 +147,6 @@ section:last-of-type .download_button{
     background-color: rgb(106, 71, 161);
     color: white;
     display: inline-block;
-    margin: auto;
 }
 section:last-of-type img:last-of-type{/* posiziono le stelline */
     position: relative;
