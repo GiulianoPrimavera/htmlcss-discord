@@ -153,4 +153,6 @@ section:last-of-type img:last-of-type{/* posiziono le stelline */
     position: relative;
     top: 35px;
 }
-
+section:last-of-type h3{
+    font-size: 30px;
+}
