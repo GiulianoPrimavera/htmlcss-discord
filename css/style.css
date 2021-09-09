@@ -11,6 +11,10 @@ header{
     background-position-y: center;
     background-size: cover;
 }
+main section:nth-of-type(even){
+    background-color: rgb(231, 231, 231);
+}
+
 a{
     text-decoration: none;
 }
@@ -18,10 +22,15 @@ h1{
     font-size: 50px;
 }
 
-.container{
+.container_hero{
     width: 980px;
     margin: auto;
     padding: 30px 0; 
+}
+.container_main{
+    width: 980px;
+    margin: auto;
+    padding: 130px 0;
 }
 .clearfix::after{
     content: "";
@@ -90,7 +99,7 @@ nav div:last-child{
     color: white;
     margin-left: 20px;
 }
-/* qui centroil testo, faccio gli stili e bottoni all'interno della hero*/
+/* qui centro il testo, faccio gli stili e bottoni all'interno della hero*/
 .hero_center{
     text-align: center;
     float: none;
@@ -102,6 +111,28 @@ nav div:last-child{
 }
 .hero_center p{
     font-size: 20px;
-    padding: 25px;
+    padding: 20px;
     color: white;
+}
+
+/* qui creo le sezioni del main */
+main div .container_main{
+    padding: 50px;
+}
+.image img{
+    object-fit: cover;
+    width: 90%;
+}
+.container_main h2{
+    font-size: 45px;
+    padding: 20px 0;
+    line-height: 55px;
+}
+.container_main p {
+    font-size: 18px;
+}
+
+/* qui modifico l'ultima sezione */
+main section:last-child .text_section{
+    padding: 0 45px;
 }
