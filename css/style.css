@@ -31,7 +31,6 @@ h1{
     width: 980px;
     margin: auto;
     padding: 130px 0;
-    text-align: center;
 }
 .clearfix::after{
     content: "";
@@ -138,8 +137,11 @@ main div .container_main{
 main section:last-child .text_section{
     padding: 0 45px;
 }
-main section:last-child .image{
-    width: 112%;
+main section:last-child .image img{
+    width: 110%;
+}
+section:last-of-type .container_main{
+    text-align: center;
 }
 section:last-of-type .download_button{
     background-color: rgb(106, 71, 161);
@@ -147,7 +149,8 @@ section:last-of-type .download_button{
     display: inline-block;
     margin: auto;
 }
-section:last-of-type img:last-of-type{
+section:last-of-type img:last-of-type{/* posiziono le stelline */
     position: relative;
     top: 35px;
 }
+
