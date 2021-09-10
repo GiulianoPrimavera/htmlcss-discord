@@ -162,3 +162,25 @@ section:last-of-type img:last-of-type{/* posiziono le stelline */
 section:last-of-type h3{
     font-size: 30px;
 }
+
+/* qui faccio il footer */
+footer .col-2_6 h2{
+    color: rgb(106, 71, 161);
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+footer .col-2_6 img{
+    width: 25px;
+    vertical-align: middle;
+}
+footer .col-2_6 span {
+    color: white;
+    font-size: 14px;
+}
+footer i{
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
