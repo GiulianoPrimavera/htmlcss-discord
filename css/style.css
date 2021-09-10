@@ -37,6 +37,7 @@ h1{
     padding: 130px 0;
 }
 .container_footer{
+    padding: 40px 0;
 }
 
 
@@ -183,4 +184,12 @@ footer i{
     font-size: 20px;
     padding-right: 20px;
     padding-top: 15px;
+}
+footer .col-1_6 h5{
+    color: rgb(106, 71, 161);
+    font-size: 16px;
+}
+footer .col-1_6 a{
+    color: white;
+    font-size: 12px;
 }
